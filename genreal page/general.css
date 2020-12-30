@@ -1,0 +1,91 @@
+body {
+    font-family: 'Poppins', sans-serif;
+}
+.general {
+    margin: 20px;
+}
+
+.general__grid {
+    display: grid;
+    grid-template-areas: "general__grid1 general__grid2 general__grid3";
+    grid-template-columns: 30% 30% 40%;
+    grid-template-rows: 400px;
+}
+
+.general__head {
+    margin: 30px 0px 0px 60px;
+}
+
+.general__grid1 div, .general__grid2 div, .general__grid3 div {
+    margin: 20px 0px;
+}
+
+.general__grid1 label, .general__grid2 label, .general__grid3 label {
+    font-size: 18px;
+    font-weight: 900;
+}
+
+.general__grid__input {
+    width: 300px;
+    height: 30px;
+    margin-top: 10px;
+    border-radius: 10px;
+
+}
+
+#general__select {
+    width: 100px;
+    height: 40px;
+    margin-left: 25px;
+    border-radius: 10px;
+}
+
+.general__grid__select {
+    width: 300px;
+    height: 40px;
+    margin-top: 10px;
+    border-radius: 10px;
+}
+
+.general__grid3__box{
+    width: 100%;
+    height: 30px;
+    border: 1px solid gray;
+    background-color: whitesmoke;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+.general__grid input:hover {
+    border: 1px solid #4bb063;
+    background-color: lightgray;
+}
+
+.general__grid select:hover{
+    background-color: lightgray;
+}
+
+.general__grid3__blue {
+    float: right;
+    cursor: pointer;
+    color: rgb(74, 184, 228);
+    font-weight: 400;
+}
+
+.general__grid3__button {
+    width: 100%;
+    height: 30px;
+    background-color: #4bb063;
+    border-radius: 10px;
+    text-align: center;
+    color: white;
+    padding: 5px;
+    cursor: pointer;
+}
+.general__grid3__button:hover{
+    background-color: #27853d;
+}
+
+.general input {
+   border: transparent;
+}

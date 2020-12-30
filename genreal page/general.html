@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="general.css">
+</head>
+<body>
+    <div class="general">
+        <div class="general__head">
+            <h4>General settings for
+                <select name="people" id="general__select">
+                    <option value="people">People</option>
+                </select>
+            </h4>
+        </div>
+        <div class="general__grid">
+            <div class="general__grid1">
+
+               <div>
+                    <label for="company name">Company name:</label><br>
+                    <input type="text" class="general__grid__input">
+               </div>
+
+               <div>
+                    <label for="Start week on">Start week on:</label><br>
+                    <select name="day" class="general__grid__select">
+                        <option value="sunday">Sunday</option>
+                        <option value="monday">Monday</option>
+                    </select>
+               </div>
+                
+               <div>
+                    <label for="Time format">Time format:</label><br>
+                    <select name="time" class="general__grid__select">
+                        <option value="12 hour">12 hours(4:34 PM)</option>
+                        <option value="24 hour">24 hours( 16:34 )</option>
+                    </select>
+               </div>
+            </div>
+            <div class="general__grid2">
+                <div>
+                    <label for="User group name">User group name:</label><br>
+                    <input class="general__grid__input" type="text">
+                </div>
+                <div>
+                    <label for="Date format">Date format:</label><br>
+                    <select name="date" class="general__grid__select">
+                        <option value="dd">YYYY-MM-DD (Year-Month-Day)</option>
+                        <option value="mm">MM-DD-YYYY (Month-Day-Year)</option>
+                        <option value="yy">DD-MM-YYYY (Day-Month-Year)</option>
+                    </select>
+                </div>
+                <div>
+                    <label for="duration">Duration</label><br>
+                    <select name="duration" class="general__grid__select">
+                        <option value="">Classic (2h 30m)</option>
+                        <option value="">Classic with seconds (2h 30m 23s)</option>
+                        <option value="">HH:MM (2:30)</option>
+                        <option value="">HH:MM:SS (2:30:23)</option>
+                        <option value="">Decimal with , (2,5 h)</option>
+                        <option value="">Decimal with . (2.5 h)</option>
+                    </select>
+                </div>
+            </div>
+            <div class="general__grid3">
+                <div>
+                    <label for="Enabled add-ons">Enabled add-ons:</label>
+                    <div class="general__grid3__box"><span></span>Attendance <span class="general__grid3__blue">Go to settings</span></div>
+                    <div class="general__grid3__box">Time Tracking<span class="general__grid3__blue">Go to settings</span></div>
+                    <div class="general__grid3__box">Billing<span class="general__grid3__blue">Go to settings</span></div>
+                    <div class="general__grid3__box">Computing Time<span class="general__grid3__blue">Go to settings</span></div>
+                    <div class="general__grid3__button">Enable additional add-on</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
