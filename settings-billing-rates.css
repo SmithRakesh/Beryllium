@@ -1,0 +1,90 @@
+.div{
+  display:block;
+}
+body{
+  font-family: 'Poppins', sans-serif;
+}
+h3{
+  margin: 30px 10px 30px 0;
+  font-size: 18px;
+  font-weight: 400;
+  padding-left:20px;
+}
+h4,h5{
+  margin: 30px 30px 30px 0;
+  font-size: 12px;
+  font-weight: 400;
+  padding-left:20px;
+  font-weight: inherit;
+}
+.buttons-box{
+  display:flex;
+  width:98%;
+  height:80px;
+  margin:auto;
+  border-radius:8px;
+  background-color: #f8f8f8;
+  border: 1px solid #f8f8f8
+}
+.btn-1{
+  height: 40px;
+  width:150px;
+  margin-left:17px;
+  text-align: center;
+  cursor: pointer;
+  border-radius: 8px;
+  font-size:14px;
+  border: 1px solid #4bb063;
+  background-color: transparent;
+  color:#4bb063;
+  margin-top:20px;
+  outline: none;
+}
+.btn-1:hover{
+  background-color:#f7fff9;
+
+}
+.btn-2{
+    margin-left:25px;
+    width:200px;
+    text-align: center;
+    background-color: transparent;
+    border-radius: 8px;
+    border: 1px solid #d6d6d6;
+    height: 40px;
+    font-size:14px;
+    color:#2e2e2e;
+    cursor: pointer;
+    margin-top:20px;
+    outline: none;
+}
+.btn-2:hover{
+  background-color:#e6e6e6;
+}
+.groups{
+  display:flex;
+  width:100%
+}
+.groups>h4{
+  padding-right:420px;
+  padding-left:35px;
+}
+.groups-title{
+  margin-top:-35px;
+  width:100%;
+  display: flex;
+  font-size: 13px;
+}
+.groups-title>.income{
+  padding-left:610px;
+  
+}
+.groups-title>.cost{
+  padding-left:530px;
+}
+Button:active, 
+ Button:focus 
+ {
+     border:1px solid #4bb063;
+     outline: none;
+  }

@@ -108,6 +108,7 @@ p{
   cursor: pointer;
   border-radius: 8px;
   font-size:14px;
+  outline: none;
 }
 .btn-2{
     background-color: transparent;
@@ -125,3 +126,9 @@ p{
 .btn-2:hover{
   background-color:#e6e6e6;
 }
+Button:active, 
+ Button:focus 
+ {
+     border:1px solid #4bb063;
+     outline: none;
+  }
