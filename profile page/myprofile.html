@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="myprofile.css">
+</head>
+<body>
+    <!-- My Profile start -->
+    <div class="container">
+        <h4>user settings</h4>
+        <div class="container__info">
+            <div class="info__img"><img id="info__img" src="login page images/user.png" alt="empty image logo"></div>
+                <div class="info__content">
+                    <div>smithjacksj94@gmail.com</div>
+                    <div class="info__blue">change your email</div>
+                    <div>Account owner </div>
+                    <div>Role in <span class="info__blue">People </span> :<span class="info__blue"> Administrator</span></div>
+                </div>
+            </div>
+            <hr>
+            <div>
+                <h4>Full name:</h4>
+            <input type="text" class="container__name container__input">
+            <br>
+            </div>
+            <div>
+                <h4>Language</h4>
+            <select  class="container__select">
+                <option value="english">English(English)</option>
+                <option value="polish">polish(polski)</option>
+                <option value="German">German(Deutsch)</option>
+                <option value="Portuguese">Portuguese(Portugues brasileiro)</option>
+                <option value="Spanish">Spanish(Espanol)</option>
+                <option value="French">Frances(Frances)</option>
+            </select>
+            <br>
+            </div>
+            <div>
+                <h4>Theme:</h4>
+                <select  class="container__select">
+                    <option value="Modern">Modern</option>
+                    <option value="Dark">Dark</option>
+                    <option value="Classic">Classic</option>
+                    <option value="higher contrast">higher contrast</option>
+                </select>
+            </div>
+
+           <div>
+                <h4>Additional email: ?</h4>
+                <input class="container__input" type="email">
+           </div>
+
+            <div class="info__blue">Change password</div>
+           
+            <div class="container__size">
+                <h4>Time tracking permissions:</h4>
+                <input type="checkbox" value="track">Can track to all projects, tasks</br>
+                <input type="checkbox" value="manage">Can manage and see all invoices, rates, projects (Time Tracking Administrator)<br>
+                <input type="checkbox" value="create">Can create new projects<br>
+                <input type="checkbox" value="invoices">Can manage and see all invoices, rates<br>
+                <input type="checkbox" required value="offline">Can add offline time<br>
+            </div>
+            
+           <div>
+            <h4>Vacations hours: ?</h4>
+            <input class="container__input" type="number" value="0"><br>
+           </div>
+
+          <div>
+            <h4>Time tracking reminder:</h4>
+            <div>Show no timer running reminder after <span class="container__num"><input class="container__reminder" type="number"></span> minutes</div><br>
+            <div>show timer left for too long reminder after <span><input class="container__reminder" type="number"></span> hours</div><br>
+          </div>
+
+           <div>
+            <h4>When continuing tracking::</h4>
+            <input type="radio" name="entry">Create new entry <br>
+            <input type="radio" name="entry">Modify time in existing entry <br>
+           </div>
+
+          <div>
+            <h4>Live chat window:</h4>
+            <input type="checkbox" value="show live">Show live chat widget with customer support representative on every page on bottom right corner <br>
+          </div>
+
+          <div class="container__size">
+            <h4>Email notifications:</h4>
+            <input type="checkbox" >Weekly computer-time team summary<br>
+            <input type="checkbox" >Alert when someone change my time entry<br>
+            <input type="checkbox" >Alert when I have time entries without a task<br>
+            <input type="checkbox" >Weekly computer time summary<br>
+            <input type="checkbox" >Daily timesheet and work time summary<br>
+            <input type="checkbox" >Alert when 80% and 100% of the budget is exceeded<br>
+            <div class="info__blue">Review General Data Protection Rights Consent</div>
+          </div>
+
+          <div>
+            <h4>Your programming API token:</h4>
+            <div><input class="container__input" type="text"><span class="container__token"></span></div>
+          </div>
+
+            <div class="info__blue">API specifications</div>
+            <hr>
+            <input type="button" value="Save changes" id="container__button1">
+            <input type="button" value="Cancel" class="container__button2">
+    </div>
+    <!-- My Profile end -->
+</body>
+</html>
+
