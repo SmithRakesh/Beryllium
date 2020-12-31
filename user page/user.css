@@ -87,6 +87,10 @@ body {
 .user__blue:hover{
     text-decoration: underline;
 }
+.user__search:active, .user__search:focus {
+    outline: #1e9b3b;
+}
+
 .user__box{
    border: 1px solid lightgray;
    border-radius: 5px;
@@ -132,8 +136,7 @@ body {
     margin-left: 10px;
 
 }
-
-.user__row3__button2:hover{
+.user__row3__button2:hover {
     background-color: #1e9b3b;
     cursor: pointer;
 }
