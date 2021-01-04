@@ -1,0 +1,202 @@
+.midSectionTimeSheet{
+    /* border: solid 1px green; */
+    min-height: 370px;
+}
+.calendar{
+    display: flex;
+    width: 85%;
+    /* border: green 1px solid; */
+    position: relative;
+    top: 94px;
+    left: 173px;
+}
+.left,.right,.mid,.day,.week,.refresh,.profilee,.bulkedit,.setting,.startTime,.endTime{
+   
+    text-align: center;
+    padding: 9px 0;
+
+    background-color: white;
+    color: rgb(141, 135, 135);
+    border: 0.2px solid rgb(221, 221, 221);
+    height: 22px;
+}
+.left,.right{
+    width: 34px;
+    
+}
+.mid{
+    width: 63px;
+}
+.left,.day{
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+}
+.right,.week{
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+}
+.mid i,.profilee i,.setting i{
+    margin-left: 10px;
+}
+.calendar p{
+    padding: 0;
+    margin: 10px 15px ;
+    font-size: 18px;
+    color:rgb(83, 83, 83);
+}
+.day,.week{
+    width: 78px;
+    color:rgb(83, 83, 83);
+}
+.day{
+    margin-left: 347px;
+}
+.refresh,.profilee{
+    margin-left: 9px;
+    width: 44px;
+    border-radius: 8px;
+}
+.profilee{
+    width: 60px;
+  
+}
+.bulkedit,.setting{
+    border-radius: 8px;
+    margin-left: 9px;
+}
+.bulkedit{
+    width: 110px;
+}
+.setting{
+    width: 63px;
+}
+
+
+.selectTask{
+   
+    position: relative;
+    top: 110px;
+    right: -167px;
+    width: 1190px;
+    height: 40px;
+    border-radius: 8px;
+    display: flex;
+    background-color: rgb(248,248,248);
+    display: flex;
+    padding: 20px 0;
+}
+.selectTask input {
+    height: 30px;
+    width: 200px;
+    background-color: rgb(248,248,248);
+    border-radius: 8px;
+    margin: 10px 5px 0 0;
+    border: 0.2px solid rgb(26, 24, 24);
+    font-size: 16px;
+   
+}
+.note{
+    /* position: relative; */
+    margin-left: 400px;
+   position: relative;
+   top: -8px;
+   font-size: 15px;
+}
+.note2{
+    font-size: 15px;
+    margin-left: 450px;
+    margin-right: 300px;
+}
+.addTimeEntry{
+    border-radius: 8px;
+    text-align: center;
+    padding: 9px 0;
+    width: 160px;
+    height: 20px;
+    background-color:  rgb(75,176,99);
+    color: white;
+    margin: 0 5px;
+    border: 0.2px solid rgb(221, 221, 221);
+}
+.line{
+    background-color: rgb(221, 221, 221);
+    width: 1px;
+    margin-left: 5px;
+}
+.startTime,.endTime{
+    border-radius: 8px;
+    width: 45px;
+    margin-left: 5px;
+}
+.startTimer{
+    color: blue;
+    margin: 5px 5px;
+    cursor: pointer;
+}
+.hypen{
+    position: relative;
+    top: -8px;
+    margin-left: 4px;
+}
+.showTasks{
+
+        border: 0.2px solid rgb(221, 221, 221);
+        width: 1190px;
+        min-height: 80px;
+        position: relative;
+        top: 140px;
+        left: 160px;
+        border-radius: 8px;
+        margin-bottom: 5px;
+    
+}
+.addNewTask{
+    height: 60px;
+    width: 100px;
+    /* border: blue 1px solid; */
+    margin-left: 160px;
+    display: flex;
+    position: relative;
+    top: 80px;
+    right: 170px;
+    margin-top: 5px;
+}
+.plus{
+    background-color: rgb(75,176,99);
+    color: white;
+    cursor: pointer;
+    
+  
+}
+.duration{
+    font-size: 12px;
+}
+.rowTask{
+    height: 57px;
+    width: 100%;
+    background-color:   rgb(248,248,248);
+    border-radius: 8px;
+}
+.selectTasks{
+    cursor: pointer;
+    width: 200px;
+    height: 25px;
+    z-index: 2;
+    border: 0;
+    font-size: 20px;
+    background-color: rgb(248,248,248);
+}
+.selectTasks:hover {
+    color:  rgb(75,176,99);
+    text-decoration: underline;
+}
+td button{
+    outline:none;
+ }
+ td button::-moz-focus-inner {
+    border: 0;
+ }
+ #duration{
+    background-color:  rgb(75,176,99);
+    color: white;
+ }

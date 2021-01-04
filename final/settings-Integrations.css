@@ -1,0 +1,76 @@
+div{
+  display: block;
+}
+body{
+  font-family: 'Poppins', sans-serif;
+}
+.integration>h3{
+  margin: 30px 10px 30px 0;
+  font-size: 18px;
+  font-weight: 400;
+  color: #2e2e2e;
+  padding-left:20px;
+}
+h4{
+  padding:30px 20px 0 20px;
+  font-size: 18px;
+  color: #2e2e2e;
+  clear: both;
+  font-weight: 400;
+}
+.small p{
+  width:255px;
+  height:85px;
+  padding:0 20px;
+  font-size: 12px;
+  text-align: center;
+  color:#2e2e2e;
+}
+.interagation-box{
+  width: 300px;
+  border: 1px solid #d6d6d6;
+  border-radius: 8px;
+  height: 232px;
+  float:left;
+  min-height: 232px;
+  min-width: 300px;
+  margin: 10px;
+}
+.interagation-box:hover{
+  border: 1px solid #4bb063;
+  box-shadow: 0 0 0 1pt #4bb063;
+  border-color: transparent;
+}
+button{
+  margin-left:25px;
+  padding:0 50px;
+  width:80%;
+  text-align: center;
+  background-color:#4bb063;
+  border-color: #49ac61;
+  border-radius: 8px;
+  border: 1px solid transparent;
+  height: 40px;
+  font-size:14px;
+  color: white;
+  cursor: pointer;
+}
+button:hover{
+  background-color:#62b876;
+}
+.img-box{
+  width:70%;
+  height:50px;
+  margin-top:17px;
+  margin-bottom:15px;
+  margin-left:43px
+}
+.img-box>img{
+  width: 100%;height: 100%;
+}
+Button:active, 
+Button:focus 
+ {
+     border:1px solid #4bb063;
+     outline: none;
+  }

@@ -1,0 +1,154 @@
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+.user {
+    margin: 20px;
+}
+
+.user__head {
+    color:  #8097a6;
+    background-color:#ebf5fb;
+    padding: 10px;
+    margin-bottom: 50px;
+}
+.user__link {
+    color: #37566b;
+    text-decoration: underline;
+    font-weight: 900;
+    cursor: pointer;
+}
+
+.user__link:hover {
+    text-decoration: none;
+}
+
+.user__invite, .user__create{
+    padding: 5px;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    text-align: center;
+    width: 150px;
+    height: 30px;
+}
+ .user__invite {
+     background-color: #4bb063;
+     color: white;
+ }
+ .user__invite:hover {
+     background-color: #1e9b3b;
+     cursor: pointer;
+ }
+
+ .user__create:hover {
+     background-color: lightgray;
+ }
+.user__message{
+    border: 1px solid lightgray;
+    border-radius: 10px;
+    padding: 5px 15px;
+}
+.user__message:hover {
+    background-color: lightgray;
+}
+
+.user__row1, .user__row2 , .user__box__row1, .user__box__row2, .user__row3 {
+    display: flex;
+}
+
+.user__row1 > div{
+    margin-right: 15px;
+}
+
+.user__row1 > input {
+    flex: 1;
+    margin-left: 200px;
+    border-radius: 10px;
+    width: 100px;
+    padding: 15px;
+    border: 1px solid lightgray;
+}
+
+.user__box__row2__mail{
+    flex: 1;
+}
+.user__row1 > input:hover {
+    border: 1px solid #4bb063;
+}
+.user__row2 {
+    justify-content: space-between;
+    width: 90%;
+}
+
+.user__blue{
+    color: rgb(63, 158, 196);
+    cursor: pointer;
+}
+.user__blue:hover{
+    text-decoration: underline;
+}
+.user__search:active, .user__search:focus {
+    outline: #1e9b3b;
+}
+
+.user__box{
+   border: 1px solid lightgray;
+   border-radius: 5px;
+   padding: 25px;
+   margin-bottom: 30px;
+}
+.user__box__row1  div {
+    margin:0 15px;
+}
+
+.user > div {
+    margin-top: 20px;
+}
+
+.user__box__row2 > div{
+    margin-right: 15px;
+}
+.user__box__row2__img {
+    width: 15px;
+    height: 15px;
+}
+
+.user__row3__button1{
+    width: 120px;
+    height: 30px;
+    text-align: center;
+    padding: 5px;
+    border: 1px solid;
+    border-radius: 10px;
+}
+.user__row3__button1:hover{
+    background-color: lightgray;
+}
+
+.user__row3__button2 {
+    width: 100px;
+    height: 30px;
+    text-align: center;
+    padding: 5px;
+    background-color:#4bb063;
+    border-radius: 10px;
+    color: white;
+    margin-left: 10px;
+
+}
+.user__row3__button2:hover {
+    background-color: #1e9b3b;
+    cursor: pointer;
+}
+
+.user__box > div {
+    margin-top: 10px ;
+}
+
+.user__row3 >input{
+    margin-left: 700px;
+}
+
+.user__row1{
+    margin-bottom: 70px;
+}

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="user__modal.css">
+</head>
+<body>
+    <div class="modal__container">
+        <div class="modal__header">
+            <div class="modal__head">Invite user</div>
+            <button class="modal__close">&times;</button>
+        </div>
+        <hr>
+        <div class="modal__body">
+            <div class="modal__dark">Each person's email address:</div><br>
+            <div class="modal__small">Each person will receive an email with their login information and a link to your account. <span> guest</span></div>
+            <input type="text" placeholder="Your email" required class="modal__input">
+            <input type="checkbox">
+            <br>
+            <div class="modal__dark">Project assignment:</div>
+            <button class="modal__project">Add Project</button><br><br>
+            <div><input type="checkbox">Add new users to all projects</div>
+            <div class="modal__dark">Which user group should they belong to?</div>
+            <select name="people" id="select__people" class="modal__dark modal__input">
+                <option value="people">People</option>
+            </select>
+            <div class="modal__dark">Which superpowers, if any, should they have?</div>
+                <div><input type="checkbox">Can manage all invoices, rates, projects (Time Tracking Administrator)</div>
+                <div><input type="checkbox">Can manage all invoices, rates</div>
+                <div><input type="checkbox">Can create new projects</div>
+
+            <div class="modal__end">
+                <div class="modal__content">Invite user by link</div>
+                <div class="modal__content">Invite multiple at once</div>
+                <button class="modal__button">Cancel</button>
+                <button class="modal__project">Invite user</button>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
