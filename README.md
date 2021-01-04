@@ -2,9 +2,11 @@
 
 ## Clone Timecamp website with HTML,CSS & JS DOM in three days.
 
-##Team Members
+## Timecamp is a website which manages and schedule's  our time efficiently to our needs.
 
-*Prabhu Siddarth,
-*Smith Rakesh.M,
-*Janagonda swarnalatha.
+## Team Members
+
+* Prabhu Siddarth,
+* Smith Rakesh.M,
+* Janagonda swarnalatha.
 
