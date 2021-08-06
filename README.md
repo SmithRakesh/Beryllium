@@ -10,3 +10,14 @@
 * Smith Rakesh.M,
 * Janagonda swarnalatha.
 
+## Screenshots of our work
+## Landing page
+![Landing page](landingpage.png)
+## Integration page
+![integration](integration.png)
+## Project page
+![Project page](projectpage.png)
+## Timesheet page
+![Timesheet page](timesheet.png)
+
+
